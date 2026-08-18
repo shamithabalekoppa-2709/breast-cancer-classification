@@ -19,7 +19,7 @@ An interactive **Streamlit web application** allows users to:
 
 - Upload the provided test dataset
 - Select a classification model
-- View all six mandatory evaluation metrics
+- View all five mandatory evaluation metrics
 - Examine the confusion matrix
 - Review the classification report
 - Compare actual and predicted diagnosis values
@@ -40,7 +40,32 @@ The project demonstrates an end-to-end machine-learning workflow covering:
 
 ## A. Problem Statement
 
-The objective of this project is to classify breast-mass observations as either **benign** or **malignant** using numerical features derived from digitized images of fine-needle aspirates of breast masses.
+Breast cancer is a significant global health concern, and the timely and accurate
+classification of breast masses can support informed clinical assessment. Machine
+learning provides an opportunity to analyse quantitative measurements extracted
+from digitized fine-needle aspiration images and identify patterns associated with
+benign and malignant observations.
+
+This project develops an automated, end-to-end machine-learning classification
+pipeline using the **Breast Cancer Wisconsin Diagnostic Dataset** from the UCI
+Machine Learning Repository. The dataset contains 569 observations and 30
+continuous numerical features derived from digitized images of fine-needle
+aspirates of breast masses.
+
+The primary objective is to implement, evaluate, and compare five classification
+algorithms for predicting one of two diagnostic classes:
+
+- **Malignant:** Cancerous breast-mass observation
+- **Benign:** Non-cancerous breast-mass observation
+
+The following machine-learning models are implemented using the same training and
+testing datasets:
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. k-Nearest Neighbors Classifier
+4. Gaussian Naive Bayes Classifier
+5. Random Forest Classifier as the ensemble model
 
 The following five machine-learning classification models were implemented on the same dataset:
 
