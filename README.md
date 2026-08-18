@@ -61,14 +61,6 @@ algorithms for predicting one of two diagnostic classes:
 The following machine-learning models are implemented using the same training and
 testing datasets:
 
-1. Logistic Regression
-2. Decision Tree Classifier
-3. k-Nearest Neighbors Classifier
-4. Gaussian Naive Bayes Classifier
-5. Random Forest Classifier as the ensemble model
-
-The following five machine-learning classification models were implemented on the same dataset:
-
 1. **Logistic Regression**
 2. **Decision Tree Classifier**
 3. **k-Nearest Neighbors Classifier**
