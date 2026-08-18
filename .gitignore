@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor configuration
+.vscode/
+.idea/
