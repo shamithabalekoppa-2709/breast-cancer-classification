@@ -1,4 +1,4 @@
-<h1 align="center">🔬 Breast Cancer Classification Model Explorer</h1>
+<h1 align="center"> Breast Cancer Classification Model Explorer</h1>
 
 <p align="center">
   <strong>Machine Learning Classification | Model Evaluation | Streamlit Deployment</strong>
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements and compares multiple machine-learning classification models using the **Breast Cancer Wisconsin Diagnostic Dataset** from the **UCI Machine Learning Repository**.
 
@@ -150,7 +150,7 @@ The following five classification models were implemented using the same trainin
 
 All models were evaluated using the same test records to ensure a fair and consistent comparison.
 
-### 📊 Model Comparison Table
+###  Model Comparison Table
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
@@ -162,7 +162,7 @@ All models were evaluated using the same test records to ensure a fair and consi
 
 > All results are rounded to four decimal places for display. The original unrounded values were used during model evaluation and winner selection.
 
-### 📝 Observations on Model Performance
+###  Observations on Model Performance
 
 | ML Model Name | Observation about Model Performance |
 |---|---|
@@ -173,7 +173,7 @@ All models were evaluated using the same test records to ensure a fair and consi
 | **Random Forest (Ensemble)** | Random Forest achieved an Accuracy of 0.9561, AUC of 0.9947, Precision of 0.9512, Recall of 0.9286, F1 Score of 0.9398, and MCC of 0.9054. The ensemble combined predictions from 200 Decision Trees, improving stability and capturing nonlinear feature relationships. The model produced 3 false-negative predictions. |
 | **Overall Winner for the Dataset** | Logistic Regression was selected as the overall winner based on combined performance across Accuracy, AUC, Precision, Recall, F1 Score, and MCC. The model achieved an average metric rank of 1.33 and produced 2 false-negative predictions. The winner was selected using multiple evaluation measures rather than Accuracy alone. |
 
-### 🏆 Overall Winner Selection Method
+###  Overall Winner Selection Method
 
 The overall winner was not selected using Accuracy alone. Every model was ranked using the six mandatory evaluation metrics:
 
@@ -214,7 +214,7 @@ Therefore, all six metrics were considered when comparing the models and selecti
 
 ---
 
-## 🚀 Live Streamlit Application
+##  Live Streamlit Application
 
 ### Application Link
 
@@ -223,4 +223,4 @@ Therefore, all six metrics were considered when comparing the models and selecti
 Replace the line above with the final link in this format:
 
 ```text
-https://your-application-name.streamlit.app
+https://your-application-name.streamlit.app](https://breast-cancer-classification-bgfbpckaywj7edfsu4dle4.streamlit.app/
